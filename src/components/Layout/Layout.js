@@ -2,6 +2,7 @@ import React from "react";
 import Aux from "../../hoc/Auxiliary";
 import styles from './Layout.module.css';
 
+//This will hold all the main components, holding the burger builder in props.children
 const layout = (props) => {
   return (
     <Aux>
