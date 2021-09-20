@@ -21,7 +21,6 @@ const burger = (props) => {
       //concat() will merge 2 or more arrays into 1
       return arr.concat(el);
     }, []);
-  console.log(transformedIngredients);
 
   if (transformedIngredients.length === 0) {
     transformedIngredients = <p>Please start adding ingredients</p>;
